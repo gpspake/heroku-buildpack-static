@@ -8,7 +8,7 @@ class NginxConfig
     encoding: "UTF-8",
     clean_urls: false,
     https_only: false,
-    max_body_size: "1M",
+    max_body_size: "10M",
     worker_connections: 512
   }
 
